@@ -8,8 +8,8 @@ class WifiManager {
     void startConnection();
     String getMacAddress();
   private:
-    const char *ssid = "Ap 403";
-    const char *password = "35945963";
+    const char *ssid = "*************";
+    const char *password = "*************";
     const int connectionTimeout = 20000;
     long connectionStartTime;
 };
